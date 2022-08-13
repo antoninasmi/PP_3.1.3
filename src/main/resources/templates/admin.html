@@ -121,7 +121,7 @@
                                                                            id="ePassword" name="password" data-toggle="password" readonly>
                                                                     <br>
                                                                     <strong><label for="eRole">Role</label></strong>
-                                                                    <select multiple class="custom-select w-100" id="eRole" name="role" required>
+                                                                    <select multiple class="custom-select w-100" size="2" id="eRole" name="role" required>
                                                                         <option
                                                                                 th:each="role : ${roles}"
                                                                                 th:value="${role.getName()}"
